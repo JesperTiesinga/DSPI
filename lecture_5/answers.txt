@@ -1,0 +1,36 @@
+4.1:
+- 2a02:a460:d53f:0:4d2e:40fc:12c6:f36e
+- ipv6:2a02:a460:d53f:0:1d51:eb26:5052:54da
+- ipv4: 192.168.2.40
+- public IP (via curl, IPv6) matches local temporary IPv6 exactly because IPv6 has no NAT
+
+4.2:
+- 84.86.7.168
+- ipv6:  2a02:a460:d53f:0:1d51:eb26:5052:54da
+- ipv4: 192.168.2.40
+- public IP changed (different address, different address family) because the VPN routes traffic through its own server using its own network path
+
+4.3: 
+- Private or public IP?
+Local IP (192.168.2.40) and gateway (192.168.2.254) are private (192.168.x.x range).
+Public IP without VPN (IPv6) and with VPN (84.86.7.168) are both public - 
+not in any private range.
+
+4.4:
+- Geo-location of IP
+Still shows Amersfoort, Utrecht. but I'm actually in Venlo. This shows IP geo-
+location isn't precise for residential ISPs like KPN it just reflects where 
+the ISP registers that IP block, not the user's real location.
+
+4.5:
+- Traceroute to google.nl
+First hop = my own router (mijnmodem.kpn), then KPN's network (hops 2-3), 
+then straight into Google's own network (hops 5-6, 2001:4860 range Google 
+owns this range), ending at a Google server (1e100.net domain, hop 7).
+Only 7 hops total.
+
+4.6:
+- Geo-location of Google server
+Amsterdam, North Holland, NL Org: AS15169 Google LLC 
+
+

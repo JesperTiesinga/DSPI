@@ -1,0 +1,17 @@
+5 
+- Ethernet adapter: Intel(R) Ethernet Connection (24) I219-V
+  Driver files: e1dn.sys, e1dnmsg.dll
+  Location: C:\Windows\System32\DriverStore\FileRepository\e1dn.inf_amd64_eda2d321a6366ce5\
+  Provider: Intel Corporation, version 20.0.3.21
+
+- Wi-Fi adapter: Intel(R) Wi-Fi 7 BE201 320MHz
+  Driver files: Netwaw18.sys, netfw18.dat
+  Location: C:\Windows\System32\DriverStore\FileRepository\netwtw6e.inf_amd64_1dcc048ae0ea02f8\
+  Provider: Intel Corporation, version 24.12040.0.1
+
+6.1:
+- ram: 1034.0
+- cpu:0.1%
+
+6.2:
+- "C:\Program Files\Google\Chrome\Application\chrome.exe"

@@ -1,0 +1,35 @@
+6.2:
+hello_world.txt:
+hello, world!
+
+hello_world.doc:
+00001840
+
+hello_world(1bit).bmp:
+byte 62(0x3E)
+
+hello_world(24bit).bmp:
+byte 54(0x36)
+
+6.3:
+- when i clicked on hello_world.exe i got the notifcation that this application can't be executed on my pc 
+- wanneer ik hello_world.exe open in hexed.it, blijven de bites hetzelfde als voorheen
+- when i opened hello_world in hexed.it, the bites are still the same as before the conversion from .txt to .exe
+- when i changed the .exe back to the .txt i could still make changes and nothing seemed to have changed, until i tried to save the updates, because it automatically made an new file and i couldn't just save the changes
+
+7.1:
+- 1 disk
+
+7.2:
+- Model: KIOXIA BG6 Series 1TB NVMe SSD, model KBG60ZNV1T02
+- capacity: 1024209543168 bytes so around 1024GB
+- speed:
+   - read: 6,000 MB/s 
+   - write: 5,300 MB/s
+
+7.3: (5 partitions)
+1. Partition 1	260 MB	EFI System Partition — bootloader files (UEFI boot)
+2. Windows (C:)	920.46 GB	Main OS partition — NTFS, BitLocker-encrypted, holds Windows + your files + page file
+3. Partition 4	1.14 GB	Recovery partition — Windows recovery environment (used for repair/reset)
+4. SR_AED	1.00 GB, FAT32	Vendor diagnostics/recovery partition (small FAT32 "AED" = likely an OEM/service utility partition)
+5. SR_IMAGE	31.00 GB, NTFS	Recovery image partition — stores a factory-restore image of Windows

@@ -1,0 +1,39 @@
+4)
+
+- 1. CPU is Intel(R) Core(TM) Ultra 7 255H
+	16 cores
+	base speed: 2.00 GHz
+	current core speed: 2.64 GHz
+	core speed up to 5.1GHz
+- 2. 
+	Type: DDR5 SO-DIMM
+	Model/PartNumber: Samsung M425R2GA3EB0-CWMOD
+	Speed: 5600 MT/s CL46
+	Capacity: 32GB total (2x16GB)
+- 3. 
+	GPU 0 is an Intel Arc Pro  140T integrated GPU (iGPU) using shared memory so no dedicated VRAM
+	GPU 1 is a NVIDIA RTX PRO 1000 Blackwell Generation Laptop GPU with 8GB of dedicated VRAM
+- 4.
+	BIOS version: HP X97 Ver. 01.05.03
+	Last updated: 04/05/2026
+5)
+
+UEFI Boot order
+M.2 SSD 2: Windows Boot Manager
+USB
+Network Boot: IPv4 Network – Intel(R) Ethernet Connection (24) I219-V
+Network Boot: IPv6 Network – Intel(R) Ethernet Connection (24) I219-V
+USB Network Boot: -
+USB Network Boot: -
+WiFi Network Boot: Wi-Fi IPv4 Network
+WiFi Network Boot: Wi-Fi IPv6 Network
+
+USB is listed second in boot order, so yes, it can boot from a USB
+
+6) 
+	Current screen resolution is 1920x1200.
+	When changing display orientation from landscape to portrait, the screen rotates 90 degrees to the left.
+	An example for putting your screen in portrait mode, I would say for when you have an additional monitor to read documents more easily.
+	When changing to the resolution of 800x600 the screen ratio changed to 4x3 and the resolution quality became worse.
+7)
+	
