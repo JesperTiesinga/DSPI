@@ -33,4 +33,10 @@ Only 7 hops total.
 - Geo-location of Google server
 Amsterdam, North Holland, NL Org: AS15169 Google LLC 
 
+5:
+- Created ed25519 SSH key, added public key to GitHub, created repo "DSPI", 
+cloned it locally, moved course files in, pushed with git add/commit/push. 
+Tested pull by adding server.txt on GitHub and running git pull. 
+Created upload.bat to automate add/commit/push in one script.
+
 
