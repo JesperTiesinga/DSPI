@@ -1,0 +1,17 @@
+# custom type: a collection of 3 numbers, one per savings account
+type savings start
+    number[3]
+end
+
+var my_savings is savings
+var total_savings is number
+
+# create the collection and fill in the three accounts
+my_savings -> savings(1000, 15000, 932)
+
+# add the three accounts together
+total_savings -> my_savings[0] + my_savings[1]
+total_savings -> total_savings + my_savings[2]
+
+print("My savings accounts have the following amounts:", my_savings)
+print("which total:", total_savings)

@@ -1,0 +1,11 @@
+# declaring variables with the right primitive types
+var name is text
+var grade is number
+var course is text
+
+# assigning values
+name -> "Jesper"
+grade -> 10
+course -> "DSPI"
+
+print("My name is", name, "and I want a", grade, "for the course", course)

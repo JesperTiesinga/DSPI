@@ -1,0 +1,22 @@
+# a collection type of 5 numbers
+type grade_list start
+    number[5]
+end
+
+var grades is grade_list
+var ten is number
+
+ten -> 10
+grades -> grade_list()
+
+# every slot references the SAME number object in memory
+grades[0] -> ten
+grades[1] -> ten
+grades[2] -> ten
+grades[3] -> ten
+grades[4] -> ten
+
+# Do not change the code below or add more code
+print(grades)
+grades[0] := 42
+print(grades)
