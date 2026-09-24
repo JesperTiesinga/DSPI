@@ -39,4 +39,10 @@ cloned it locally, moved course files in, pushed with git add/commit/push.
 Tested pull by adding server.txt on GitHub and running git pull. 
 Created upload.bat to automate add/commit/push in one script.
 
+6:
+6.2 - SSH key setup on LIACS server
+Attempted to create ~/.ssh/authorized_keys, but got "Disk quota exceeded" 
+even though du -sh ~ shows only 1.5K used. This appears to be a server-side 
+/home quota issue (shared drive), reported to course staff.
+
 
