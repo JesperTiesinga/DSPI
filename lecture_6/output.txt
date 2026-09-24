@@ -1,0 +1,5 @@
+Welcome to start Jesper!
+What is your favorite number 10
+Based on your number, I think the following calculation will result in the number 42.
+Calculating answer ...
+The answer is 42

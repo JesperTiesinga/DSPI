@@ -1,0 +1,12 @@
+name: complement
+init: flip
+accept: done
+
+flip,0
+flip,1,>
+
+flip,1
+flip,0,>
+
+flip,_
+done,_,-

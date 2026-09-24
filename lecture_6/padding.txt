@@ -1,0 +1,21 @@
+name: padding
+init: goRight
+accept: done
+
+goRight,0
+goRight,0,>
+
+goRight,1
+goRight,1,>
+
+goRight,_
+goLeft,0,
+
+goLeft,0
+goLeft,0,
+
+goLeft,1
+goLeft,1,
+
+goLeft,_
+done,0,-
